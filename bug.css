@@ -1,0 +1,1 @@
+The CSS property `calc()` can produce unexpected results when used with percentages and other units inconsistently.  For example, `width: calc(50% - 10px);` might not render as expected in all browsers if the parent container's width changes dynamically.
